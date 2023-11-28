@@ -8,7 +8,7 @@ contract Mod1 {
         Percent = _percent;
 
         // Using the require statement to check that the percentage can't be negative.
-        require(_percent >= 0 , "The percentage can't be less than zero");
+        require(_percent >= 0 , "The percentage can not be less than zero");
 
         // minimum percentage should be 33 
         assert(_percent >= 33 );
